@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int x,y;
+	char z;
+	cout<<"enter the first number"<<endl;
+	cin>>x;
+	cout<<"enter the second number"<<endl;
+	cin>>y;
+	cout<<"enter the operating system"<<endl;
+	cin>>z;
+	switch(z)
+	{
+	case '+':
+		cout<<x<<"+"<<y<<"="<<x+y;
+		break;
+		case '-':
+			cout<<x<<"-"<<y<<"="<<x-y;
+			break;
+				case '*':
+			cout<<x<<"*"<<y<<"="<<x*y;
+			break;
+				case '/':
+			cout<<x<<"/"<<y<<"="<<x/y;
+			break;
+			default:
+			cout<<"please enter a valid operator";
+
+}
+			return 0;
+			}
+			return 0;
+			
+			
+			
+}
